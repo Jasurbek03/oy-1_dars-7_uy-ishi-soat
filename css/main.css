@@ -1,0 +1,483 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    color: #555248;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+ul {
+    /* color: #000000; */
+    list-style-type: none;
+}
+
+.container {
+    width: 1366px;
+    padding: 0px 100px 0px 97px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+}
+
+
+/* SITE-HEADER */
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 31px;
+    margin-bottom: 17px;
+}
+
+.site-logo-img {
+    width: 104px;
+    height: 26px;
+}
+
+.site-nav-list {
+    width: 422px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav-link {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+
+/* BUTTON qismi. Bu qismda kamchiliklari bor oxirida to'g'irlayman */
+.site-header-icons {
+    width: 130px;    
+}
+
+.header-icons-button {
+    background-color: #ffffff;
+    border: none;
+}
+
+.header-icons-button-img-lupa {
+    width: 16px;
+    height: 16px;
+}
+
+.header-icons-button-img-like {
+    width: 21px;
+    height: 18px;
+}
+
+.header-icons-button-img-carzinka {
+    width: 18px;
+    height: 16px;
+}
+
+
+
+/* SITE-HERO */
+.site-hero {
+    display: flex;
+    margin-bottom: 49px;
+}
+
+.site-hero-content {
+    width: 408px;
+    margin-top: 236px;
+    margin-bottom: 236px;
+}
+
+.hero-content-heading {
+    width: 408px;
+    margin: 0;
+    font-size: 45px;
+    line-height: 60px;
+    color: #1b1a17;
+    margin-bottom: 16px;
+}
+
+.hero-content-text-large {
+    margin: 0;
+    margin-left: 40px;
+    font-size: 30px;
+    line-height: 40px;
+    color: #1b1a17;
+    margin-bottom: 39px;
+}
+
+.hero-content-text {
+    width: 258px;
+    margin: 0;
+    margin-left: 40px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(27, 26, 23, 0.82);
+    margin-bottom: 64px;
+}
+
+.hero-content-link {
+    background-color: #444240;
+    color: #ffffff;
+    display: inline-block;
+    margin-left: 40px;
+    padding: 26px 38px;
+    font-weight: 500;   
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.site-hero-text-price {
+    margin: 0;
+    margin-top: 138px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1b1a17;
+}
+
+.site-hero-img {
+    width: 506px;
+    height: 806px;
+}
+
+.site-hero-text-size {
+    margin: 0;
+    margin-top: 636px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1b1a17;
+}
+
+
+
+/* SITE-PRODUCTS */
+.site-products {
+    margin-bottom: 86px;
+}
+
+.site-products-heading {
+    text-align: center;
+    margin: 0;
+    font-size: 32px;
+    line-height: 43px;
+    color: #1b1a17;
+}
+
+.site-products-text {
+    text-align: right;
+    margin: 0;
+    margin-bottom: 11px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #444240;
+}
+
+.site-products-hr {
+    margin: 0;
+    margin-left: auto;
+    margin-bottom: 25px;
+    width: 101px;
+    border: 1px solid #C4C0B6;
+}
+
+.site-products-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.products-list-item {
+    width: 370px;
+    background-color: #fdfdfb;
+    padding: 40px 28px;   
+}
+
+.products-item-text-brend {
+    margin: 0;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(27, 26, 23, 0.82);
+}
+
+.products-item-text-price {
+    margin: 0;
+    margin-bottom: 2px;
+    margin-left: 12px;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(27, 26, 23, 0.82);
+}
+
+.products-item-img {
+    width: 313px;
+    height: 313px;
+    margin-bottom: 19px;
+}
+
+.products-item-link {
+    margin-left: 12px;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1b1a17;
+}
+
+
+
+/* SITE-QUALITY */
+.site-container {
+    background-color: #f7f5ef;
+}
+
+.site-quality {
+    margin: 52px 122px 53px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-quality-img {
+    width: 521px;
+    height: 414px;
+}
+
+.site-quality-info {
+    width: 376px;
+}
+
+.quality-info-heading {
+    margin: 0;
+    margin-bottom: 38px;
+    font-size: 32px;
+    line-height: 43px;
+    color: #1b1a17;
+}
+
+.quality-info-text {
+    margin: 0;
+    margin-bottom: 45px;
+    font-size: 16px;
+    line-height: 150%;
+    color: #444240;
+}
+
+.quality-info-link {
+    background-color: #d4b098;
+    color: #ffffff;
+    display: inline-block;
+    padding: 26px 38px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+}
+
+
+
+/* SITE-NEWS */
+.site-news {
+    margin-top: 81px;
+    margin-bottom: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-news-information {
+    width: 473px;
+}
+
+.site-news-heading {
+    margin: 0;
+    margin-bottom: 40px;
+    font-size: 32px;
+    line-height: 43px;
+    color: #1b1a17;
+}
+
+.site-news-text {
+    width: 376px;
+    margin: 0;
+    margin-bottom: 120px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #444240;
+}
+
+.site-news-information-span {
+    font-weight: bold;
+}
+
+.news-information-social-networks {
+    width: 93px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-networks-img-instagram {
+    width: 23px;
+    height: 24px;
+}
+
+.social-networks-img-facebook {
+    width: 12px;
+    height: 22px;
+}
+
+.social-networks-img-twitter {
+    width: 22px;
+    height: 18px;
+}
+
+
+.site-news-images-wrapper {
+    width: 629px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.site-news-images-box {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 10px;
+    
+}
+
+.news-images-box-img {
+    width: 242px;
+    height: 222px;
+}
+
+.site-news-images-wrapper-big-img {
+    width: 377px;
+    height: 460px;
+}
+
+
+
+
+/* SITE-FOOTER */
+.footer-container {
+    background-color: #444240;
+    color: #ffffff;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-logo-box {
+    margin-top: 79px;
+    margin-bottom: 116px;
+}
+
+.footer-logo-box-link {
+    display: block;
+    margin-bottom: 23px;
+}
+
+.footer-logo-img {
+    width: 130px;
+    height: 34px;
+}
+
+.footer-logo-box-phone-number {
+    display: block;
+    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.footer-logo-box-email {
+    display: block;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+
+.footer-about {
+    margin-top: 79px;
+    margin-bottom: 67px;
+}
+
+.footer-headings {
+    margin: 0;
+    margin-bottom: 33px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+}
+
+.footer-about-list {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-about-list-item {
+    margin-bottom: 15px;
+}
+
+.about-list-link {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.footer-buyers {
+    margin-top: 79px;
+    margin-bottom: 67px;
+}
+
+.footer-buyers-list {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-buyers-list-item {
+    margin-bottom: 15px;
+}
+
+.buyers-list-item-link {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+
+.footer-payment {
+    margin-top: 79px;
+    margin-bottom: 67px;
+}
+
+.footer-payment-list {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-payment-list-item {
+    margin-bottom: 15px;
+}
+
+.payment-list-item-link {
+    color: rgba(255, 255, 255, 0.75);
+}
